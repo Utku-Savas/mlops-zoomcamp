@@ -4,9 +4,5 @@ RUN pip install -U pip
 RUN pip install pipenv 
 
 WORKDIR /app
-
-COPY [ "Pipfile", "Pipfile.lock", "./" ]
-
-RUN pipenv install --system --deploy
-
-COPY [ "starter.py", "./" ]
+COPY [ "model2.bin", "model.bin" ]
+    
