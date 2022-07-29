@@ -8,8 +8,12 @@ scikit-learn = "==1.0.2"
 pandas = "*"
 pyarrow = "*"
 s3fs = "*"
+deepdiff = "*"
+awscli = "*"
+boto3 = "*"
 
 [dev-packages]
+pytest = "*"
 
 [requires]
 python_version = "3.9"
